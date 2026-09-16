@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    /* border: 2px solid red; */
+    padding-left: 15px;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: #FFFFFF;
+    /* border: 2px solid red; */
+    padding: 10px 0px;
+    gap: 100px;
+    margin: 0px 300px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    gap: 60px;
+}
+
+.flex-container1 {
+    background-color: #8B00FA;
+    display: flex;
+    padding: 30px 130px 0px;
+    justify-content: center;
+    gap: 150px;
+    /* border: 2px solid red; */
+}
+
+.flex-item1 {
+    margin-left: 59px;
+    padding-top: 70px;
+    /* border: 2px solid red; */
+}
+
+.flex-item1_1 h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    line-height: 76px;
+    font-weight: 700;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    margin-top: 70px;
+    text-shadow: -5px 5px 2px black;    /*edit */
+    /* border: 2px solid red; */
+}
+
+.flex-item1_1 p {
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 40px;
+    vertical-align: baseline;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    /* border: 2px solid red; */
+}
+
+
+.flex-item1_2 {
+    /* border: 2px solid red; */
+    padding-right: 180px;
+}
+
+/* Another one */
+.flex-container2 {
+    background-color: #6F06C0;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+    /* border: 2px solid red; */
+}
+
+/* Another one */
+.flex-container3 {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 50px 130px 0px;
+    /* justify-content: center; */
+    /* margin-left: 130px; */
+}
+
+.flex-item3_1 h1 {
+    color: #490181;
+    font-size: 49px;
+    line-height: 49px;
+    vertical-align: baseline;
+    letter-spacing: -2px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.flex-item3_1 p {
+    color: #8F00FF;
+    font-size: 26px;
+    line-height: 26px;
+    vertical-align: baseline;
+    letter-spacing: 1px;
+    margin: 20px 0px 50px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.flex-item3_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 2px solid red; */
+    gap: 150px;
+}
+
+.text-wrap {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.text1 {
+    background-color: #490181;
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 24px;
+    margin-bottom: 10px;
+    box-shadow: 0px 7px 2px #FFD74C;
+    /* text-align: center; */
+}
+
+.text1 h3 {
+    font-size: 21px;
+    line-height: 21px;
+    vertical-align: baseline;
+    letter-spacing: 1%;
+    margin: 0px 0px 12px;
+    font-weight: 700;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+.text1 p {
+    font-size: 16px;
+    line-height: 25px;
+    vertical-align: baseline;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Another one  */
+.flex-container4 {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F0F0FF;
+    padding: 98px 0px 94px;
+    margin: 0px 0px 110px -44.094px;
+}
+
+.flex-item4_1 h1 {
+    color: #490181;
+    font-size: 50px;
+    line-height: 62px;
+    vertical-align: baseline;
+    letter-spacing: -1px;
+    margin: 45px 0px 40px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.flex-item4_1 p {
+    color: #490181;
+    font-size: 24px;
+    line-height: 36px;
+    vertical-align: baseline;
+    margin: 10px 148.984px 0px 0px;
+    font-weight: 400;
+    text-align: left;
+    padding: 24px;
+}
+
+.flex-item4_1 span {
+    color: #8F00FF;
+}
+
+.flex-item4_1 > .deco-text {
+    /* border: 2px solid red; */
+    background-color: RGB(143, 0, 255);
+    color: #FFFFFF;
+    padding: 15px;
+    margin: 80px 80px 43px 0px;
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align: baseline;
+    letter-spacing: -4%;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 7px 7px  #FFD74C;
+}
+
+.flex-item4_2 img {
+    width: 565px;
+    height: 552px;
+    object-fit: cover;
+    border-radius: 48px;
+}
