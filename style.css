@@ -46,7 +46,7 @@ img {
 
 .link:hover {
     text-decoration: underline;
-    text-decoration-color: #8B00FA ;
+    text-decoration-color: #8B00FA;
 }
 
 .CTA a {
@@ -55,11 +55,30 @@ img {
     text-align: left;
     font-weight: 500;
     text-decoration: none;
-    border: 2px solid red;
-    border-radius: 20px;
-    background-color: #8B00FA;
-    padding: 10px;
+    /* border: 2px solid red; */
+    border-radius: 30px;
+    background-color: #6D46DB;
+    padding: 7px 20px;
 }
+
+.nav-child-wrapper {
+    display: flex;
+    gap: 22px;
+    /* border: 2px solid red; */
+    background-color: #F7F7FB;
+    border-radius: 200px;
+    padding: 7px 20px;
+}
+
+.nav-child {
+    color: #202046;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    /* border: 2px solid red; */
+    background-color: #F7F7FB;
+}
+
 /* Another one */
 .flex-container1 {
     background-color: #8B00FA;
@@ -84,8 +103,7 @@ img {
     text-align: left;
     font-family: "Poppins", sans-serif;
     margin-top: 70px;
-    text-shadow: -5px 5px 2px black;
-    /*edit */
+    text-shadow: -5px 5px 0 #4a0084;
     /* border: 2px solid red; */
 }
 
@@ -101,7 +119,31 @@ img {
     /* border: 2px solid red; */
 }
 
+.flex-item1_1 image {
+    display: flex;
+    flex-direction: row;
+}
 
+.container1-licensing {
+    display: flex;
+    gap: 40px;
+}
+
+.container1-licensing1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.container1-licensing1 span:nth-child(1) {
+    /* border: 2px solid red; */
+    font-size: 9px;
+    line-height: 150%;
+    color: #FFEFFF;
+
+}
+/* stufffffff */
 .flex-item1_2 {
     /* border: 2px solid red; */
     padding-right: 180px;
@@ -559,7 +601,7 @@ img {
     padding-bottom: 120px;
 }
 
-.flex-item10_1{
+.flex-item10_1 {
     display: flex;
     justify-content: center;
 }
@@ -592,6 +634,7 @@ img {
     display: flex;
     flex-direction: row;
 }
+
 .licensing1 p {
     padding-top: 12px;
 }
@@ -677,7 +720,7 @@ hr {
     margin-bottom: 20px;
 }
 
-.flex-item11_2 span{
+.flex-item11_2 span {
     color: #4D0683;
     font-size: 22px;
     line-height: 28.6px;
@@ -704,6 +747,7 @@ hr {
     flex-direction: row;
     /* margin-top: 40px; */
 }
+
 .name span {
     font-size: 16px;
     /* border: 2px solid red; */
