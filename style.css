@@ -19,16 +19,29 @@ img {
     padding-left: 15px;
 }
 
+nav {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* z-index: 1000; */
+}
+
 .nav-bar {
     display: flex;
     background-color: #FFFFFF;
     /* border: 2px solid red; */
-    padding: 10px 0px;
-    gap: 100px;
-    margin: 10px 300px;
-    position: sticky;
+    padding: 5px 0px;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
 }
-
+.nav-bar img {
+    /* border: 2px solid red; */
+    margin-left: 55px;
+}
 .links {
     display: flex;
     gap: 50px;
@@ -61,31 +74,25 @@ img {
     padding: 7px 20px;
 }
 
-.nav-child-wrapper {
-    display: flex;
-    gap: 22px;
-    /* border: 2px solid red; */
-    background-color: #F7F7FB;
-    border-radius: 200px;
-    padding: 7px 20px;
-}
 
-.nav-child {
-    color: #202046;
-    font-size: 12px;
-    font-weight: 500;
-    text-align: left;
-    /* border: 2px solid red; */
+select {
+    border: 2px solid #F7F7FB;
     background-color: #F7F7FB;
+    color: #202046;
+    border-radius: 20px;
+    padding: 5px 60px 5px 0px;
+    outline: none;
+    text-align: left;
 }
 
 /* Another one */
 .flex-container1 {
-    background-color: #8B00FA;
+    background-image: url(./images/container1bg.png);
     display: flex;
     padding: 30px 130px 0px;
     justify-content: center;
     gap: 150px;
+    margin-top: 50px;
     /* border: 2px solid red; */
 }
 
@@ -111,7 +118,6 @@ img {
     color: #FFFFFF;
     font-size: 24px;
     line-height: 40px;
-    vertical-align: baseline;
     font-weight: 300;
     text-align: left;
     margin-top: 30px;
@@ -133,7 +139,6 @@ img {
     display: flex;
     gap: 20px;
     align-items: center;
-
 }
 
 .container1-licensing1 span:nth-child(1) {
@@ -141,9 +146,8 @@ img {
     font-size: 9px;
     line-height: 150%;
     color: #FFEFFF;
-
 }
-/* stufffffff */
+
 .flex-item1_2 {
     /* border: 2px solid red; */
     padding-right: 180px;
@@ -164,6 +168,8 @@ img {
     display: flex;
     flex-direction: column;
     padding: 50px 130px 0px;
+    /* margin-top: 36px; */
+    background-image: url(./images/container2bg.png);
     /* justify-content: center; */
     /* margin-left: 130px; */
 }
@@ -172,7 +178,6 @@ img {
     color: #490181;
     font-size: 49px;
     line-height: 49px;
-    vertical-align: baseline;
     letter-spacing: -2px;
     font-weight: 700;
     text-align: center;
@@ -182,7 +187,6 @@ img {
     color: #8F00FF;
     font-size: 26px;
     line-height: 26px;
-    vertical-align: baseline;
     letter-spacing: 1px;
     margin: 20px 0px 50px;
     font-weight: 300;
@@ -218,7 +222,6 @@ img {
 .text1 h3 {
     font-size: 21px;
     line-height: 21px;
-    vertical-align: baseline;
     letter-spacing: 1%;
     margin: 0px 0px 12px;
     font-weight: 700;
@@ -229,7 +232,6 @@ img {
 .text1 p {
     font-size: 16px;
     line-height: 25px;
-    vertical-align: baseline;
     font-weight: 400;
     text-align: center;
 }
@@ -249,7 +251,6 @@ img {
     color: #490181;
     font-size: 50px;
     line-height: 62px;
-    vertical-align: baseline;
     letter-spacing: -1px;
     margin: 45px 0px 40px;
     font-weight: 700;
@@ -260,15 +261,16 @@ img {
     color: #490181;
     font-size: 24px;
     line-height: 36px;
-    vertical-align: baseline;
     margin: 10px 148.984px 0px 0px;
     font-weight: 400;
     text-align: left;
     padding: 0px;
+    text-shadow: 0 5px #d3d3e0;
 }
 
 .flex-item4_1 span {
     color: #8F00FF;
+    text-shadow: 0 5px #d3d3e0;
 }
 
 .flex-item4_1>.deco-text {
@@ -279,7 +281,6 @@ img {
     margin: 80px 80px 43px 0px;
     font-size: 20px;
     line-height: 20px;
-    vertical-align: baseline;
     letter-spacing: -4%;
     font-weight: 600;
     text-align: center;
@@ -299,7 +300,8 @@ img {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
+    background-image: url(./images/container2bg.png);
     padding: 98px 0px 94px;
     margin: 0px 0px 0px -44.094px;
 }
@@ -308,7 +310,6 @@ img {
     color: #490181;
     font-size: 50px;
     line-height: 62px;
-    vertical-align: baseline;
     letter-spacing: -1px;
     margin: 45px 0px 40px;
     font-weight: 700;
@@ -319,11 +320,11 @@ img {
     color: #490181;
     font-size: 24px;
     line-height: 36px;
-    vertical-align: baseline;
     margin: 10px 0px 0px 77.5px;
     font-weight: 400;
     text-align: right;
     padding: 0px;
+    text-shadow: 0 5px #d3d3e0;
 }
 
 .flex-item5_1 span {
@@ -338,7 +339,6 @@ img {
     margin-top: 80px;
     font-size: 20px;
     line-height: 20px;
-    vertical-align: baseline;
     letter-spacing: -4%;
     font-weight: 700;
     text-align: center;
@@ -368,7 +368,6 @@ img {
     color: #490181;
     font-size: 50px;
     line-height: 62px;
-    vertical-align: baseline;
     letter-spacing: -1px;
     margin: 45px 0px 40px;
     font-weight: 700;
@@ -379,11 +378,11 @@ img {
     color: #490181;
     font-size: 24px;
     line-height: 36px;
-    vertical-align: baseline;
     margin: 10px 148.984px 0px 0px;
     font-weight: 400;
     text-align: left;
     padding: 0px;
+    text-shadow: 0 5px #d3d3e0;
 }
 
 /* .flex-item6_1 span {
@@ -398,7 +397,6 @@ img {
     margin: 80px 80px 43px 0px;
     font-size: 20px;
     line-height: 20px;
-    vertical-align: baseline;
     letter-spacing: -4%;
     font-weight: 600;
     text-align: center;
@@ -418,7 +416,8 @@ img {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
+    background-image: url(./images/container2bg.png);
     padding: 98px 0px 94px;
     margin: 0px 0px 0px -44.094px;
     /* gap: 180px; */
@@ -428,7 +427,6 @@ img {
     color: #490181;
     font-size: 50px;
     line-height: 62px;
-    vertical-align: baseline;
     letter-spacing: -1px;
     margin: 45px 0px 40px;
     font-weight: 700;
@@ -439,11 +437,11 @@ img {
     color: #490181;
     font-size: 24px;
     line-height: 36px;
-    vertical-align: baseline;
     margin: 10px 0px 0px 7.5px;
     font-weight: 400;
     text-align: right;
     padding: 0px;
+    text-shadow: 0 5px #d3d3e0;
 }
 
 .flex-item7_1 span {
@@ -458,7 +456,6 @@ img {
     margin-top: 80px;
     font-size: 20px;
     line-height: 20px;
-    vertical-align: baseline;
     letter-spacing: -4%;
     font-weight: 700;
     text-align: center;
@@ -489,7 +486,6 @@ img {
     color: #490181;
     font-size: 50px;
     line-height: 62px;
-    vertical-align: baseline;
     letter-spacing: -1px;
     margin: 45px 0px 40px;
     font-weight: 700;
@@ -500,11 +496,11 @@ img {
     color: #490181;
     font-size: 24px;
     line-height: 36px;
-    vertical-align: baseline;
     margin: 10px 148.984px 0px 0px;
     font-weight: 400;
     text-align: left;
     padding: 0px;
+    text-shadow: 0 5px #d3d3e0;
 }
 
 /* .flex-item8_1 span {
@@ -519,7 +515,6 @@ img {
     margin: 80px 80px 43px 0px;
     font-size: 20px;
     line-height: 20px;
-    vertical-align: baseline;
     letter-spacing: -4%;
     font-weight: 600;
     text-align: center;
@@ -539,7 +534,8 @@ img {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
+    background-image: url(./images/container2bg.png);
     padding: 98px 0px 94px;
     margin: 0px 0px 0px -44.094px;
 }
@@ -548,7 +544,6 @@ img {
     color: #490181;
     font-size: 50px;
     line-height: 62px;
-    vertical-align: baseline;
     letter-spacing: -1px;
     margin: 45px 0px 40px;
     font-weight: 700;
@@ -559,11 +554,11 @@ img {
     color: #490181;
     font-size: 24px;
     line-height: 36px;
-    vertical-align: baseline;
     margin: 10px 0px 0px 77.5px;
     font-weight: 400;
     text-align: right;
     padding: 0px;
+    text-shadow: 0 5px #d3d3e0;
 }
 
 .flex-item9_1 span {
@@ -578,7 +573,6 @@ img {
     margin-top: 80px;
     font-size: 20px;
     line-height: 20px;
-    vertical-align: baseline;
     letter-spacing: -4%;
     font-weight: 700;
     text-align: center;
@@ -610,7 +604,6 @@ img {
     color: #490181;
     font-size: 50px;
     line-height: 50px;
-    vertical-align: baseline;
     margin: 41.5px 0px 60px;
     font-weight: 700;
     text-align: center;
@@ -628,7 +621,6 @@ img {
 .licensing1 {
     color: #4D0683;
     font: 15px;
-    vertical-align: baseline;
     font-weight: 700;
     text-align: left;
     display: flex;
@@ -647,7 +639,6 @@ img {
 .licensing2 {
     color: #4D0683;
     font: 15px;
-    vertical-align: baseline;
     font-weight: 700;
     text-align: left;
     display: flex;
@@ -663,19 +654,20 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    /* border: 2px solid red; */
+    margin-top: 80px;
 }
 
 .section-child {
     color: #000000;
     font-size: 15px;
     line-height: normal;
-    vertical-align: baseline;
     padding: 0px 0px 20px;
     font-weight: 400;
     text-align: center;
 }
 
-hr {
+.purple-border {
     border: 1px solid #490181;
 }
 
@@ -692,7 +684,6 @@ hr {
     color: #490181;
     font-size: 16px;
     line-height: 25.6px;
-    vertical-align: baseline;
     letter-spacing: -4%;
     margin: 0px 85px;
     font-weight: 400;
@@ -712,7 +703,6 @@ hr {
 .flex-item11_1 span {
     color: #4D0683;
     font-size: 40px;
-    vertical-align: baseline;
     font-weight: 600;
     text-align: center;
     display: flex;
@@ -724,7 +714,6 @@ hr {
     color: #4D0683;
     font-size: 22px;
     line-height: 28.6px;
-    vertical-align: baseline;
     font-weight: 400;
     text-align: center;
     display: flex;
@@ -762,22 +751,24 @@ hr {
     display: flex;
     flex-direction: row;
     /* margin-top: 40px; */
+    gap: 22px;
+}
+
+.rating img {
+    /* border: 2px solid red; */
+    object-fit: contain;
 }
 
 .rating span {
     font-size: 14px;
     /* border: 2px solid red; */
-    vertical-align: baseline;
     font-weight: 400;
     display: flex;
-    padding-left: 10px;
-    /* padding-top: 10px; */
 }
 
 .review {
     font-size: 14px;
     line-height: 21px;
-    vertical-align: baseline;
     font-weight: 400;
     text-align: left;
     margin-top: 10px;
@@ -799,6 +790,7 @@ hr {
     justify-content: center;
     margin-top: 34px;
     gap: 55px;
+    background-image: url(./images/fourthbg.png);
 }
 
 .flex-item12_2 {
@@ -810,7 +802,6 @@ hr {
     color: #4D0683;
     font-size: 43px;
     line-height: 55px;
-    vertical-align: baseline;
     margin: 190px 0px 0px 10px;
     font-weight: 700;
     text-align: left;
@@ -829,6 +820,8 @@ hr {
 /* Another one */
 .flex-container13 {
     background-color: #402487;
+    background-image: url(./images/container13lines.png);
+    margin-top: -7px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -841,7 +834,6 @@ hr {
     color: #FFFFFF;
     font-size: 32px;
     padding-top: 30px;
-    vertical-align: top;
     font-weight: 600;
     text-align: start;
 }
@@ -849,7 +841,6 @@ hr {
 .flex-item13_1 span {
     color: #FFFFFF;
     font-size: 40px;
-    vertical-align: top;
     font-weight: 900;
     text-align: start;
 }
@@ -875,33 +866,30 @@ hr {
     gap: 100px;
 }
 
-.section {
+.sections {
     display: flex;
     flex-direction: column;
     gap: 22px;
 }
 
-.section1 {
+.section {
     display: flex;
     flex-direction: column;
 }
 
-.section1 h3 {
+.section h3 {
     color: #FFFFFF;
     font-size: 20px;
-    line-height: 30px;
-    vertical-align: baseline;
     margin: 0px 0px 12px;
     font-weight: 500;
     text-align: start;
 }
 
-.section1 p {
+.section p {
     color: #D9DBE1;
     font-size: 14px;
-    line-height: 24px;
-    vertical-align: baseline;
-    margin: 6px 0px;
+    /* line-height: 24px; */
+    margin: 4px 0px;
     font-weight: 400;
     text-align: start;
 }
@@ -914,27 +902,26 @@ hr {
     margin-right: 400px;
 }
 
-.flex-item14_3 {
+.flex-item14_3 p {
     color: #D9DBE1;
     font-size: 14px;
     line-height: 24px;
-    vertical-align: baseline;
-    padding: 0px 382.5px 24px;
+    padding: 30px 382.5px 24px;
     font-weight: 400;
     text-align: start;
     margin-left: 20px;
 }
 
 hr {
-    border: 1px solid #D9DBE1;
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.flex-item14_4 {
-    color: #FFFFFF;
+.flex-item14_4 p {
+    color: rgba(255, 255, 255, 0.3);
     font-size: 14px;
     line-height: 24.22px;
-    vertical-align: baseline;
-    padding: 20px 382.5px 40px;
     font-weight: 400;
     text-align: start;
+    padding: 20px 382.5px 2px;
+    /* border: 2px solid red; */
 }
